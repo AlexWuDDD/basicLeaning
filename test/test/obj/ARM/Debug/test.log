@@ -1,0 +1,8 @@
+﻿  Validating sources
+  Copying sources remotely to '10.0.1.105'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  main.cpp
+  Linking objects
+  test.vcxproj -> C:\Users\e823551\source\repos\test\test\bin\ARM\Debug\test.out
