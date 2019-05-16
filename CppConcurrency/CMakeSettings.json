@@ -12,7 +12,7 @@
       "buildCommandArgs": "",
       "ctestCommandArgs": "",
       "inheritEnvironments": [ "linux_x64" ],
-      "remoteMachineName": "-525569841;192.168.31.247 (username=pi, port=22, authentication=Password)",
+      "remoteMachineName": "-1193819588;10.0.1.149 (username=alex, port=22, authentication=Password)",
       "remoteCMakeListsRoot": "/var/tmp/src/${workspaceHash}/${name}",
       "remoteBuildRoot": "/var/tmp/build/${workspaceHash}/build/${name}",
       "remoteInstallRoot": "/var/tmp/build/${workspaceHash}/install/${name}",
