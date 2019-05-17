@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\DesignPattern"
+    "\\DesignPattern",
+    "\\DesignPattern\\AbstractFactory"
   ],
-  "SelectedNode": "\\DesignPattern\\singleton.cpp",
+  "SelectedNode": "\\DesignPattern\\AbstractFactory\\concrete_factory.h",
   "PreviewInSolutionExplorer": false
 }
