@@ -8,6 +8,7 @@ add_definitions(-std=c++11)
 # Add source to this project's executable.
 add_executable (DesignPattern "DesignPattern.cpp" "DesignPattern.h"
 	singleton.cpp
-	AbstractFactory/factory.cpp)
+	AbstractFactory/factory.cpp
+	BuildPattern/testBuildPattern.cpp)
 
 # TODO: Add tests and install targets if needed.

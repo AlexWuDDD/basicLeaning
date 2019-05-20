@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\DesignPattern",
-    "\\DesignPattern\\AbstractFactory"
+    "\\DesignPattern\\AbstractFactory",
+    "\\DesignPattern\\BuildPattern"
   ],
-  "SelectedNode": "\\DesignPattern\\AbstractFactory\\concrete_factory.h",
+  "SelectedNode": "\\DesignPattern\\BuildPattern\\testBuildPattern.cpp",
   "PreviewInSolutionExplorer": false
 }

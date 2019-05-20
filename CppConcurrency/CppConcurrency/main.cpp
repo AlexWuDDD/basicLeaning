@@ -18,12 +18,13 @@ void hello()
 
 int main()
 {
-	std::thread t(hello);
-	t.join();
+//	std::thread t(hello);
+//	t.join();
 //	t.detach();
 //	assert(!t.joinable());
+	cout << "this computer can has " << std::thread::hardware_concurrency() << " CPU cores!" <<  endl;
 
 	return 0;
 }
 
-//page 23
+//page 31

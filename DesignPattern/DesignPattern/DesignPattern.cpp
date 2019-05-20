@@ -4,6 +4,7 @@
 #include "DesignPattern.h"
 #include "singleton.h"
 #include "AbstractFactory/factory.h"
+#include "BuildPattern/testBuildPattern.h"
 
 using namespace std;
 
@@ -11,6 +12,8 @@ int main()
 {
 	cout << "Hello CMake." << endl;
 	//testSingleton();
-	AFtest();
+	//AFtest();
+	testBuildPattern();
+	
 	return 0;
 }
