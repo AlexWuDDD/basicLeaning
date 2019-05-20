@@ -13,5 +13,6 @@ add_executable(client1 client1.cpp)
 add_executable(listener1 listener1.cpp)
 add_executable(talker1 talker1.cpp)
 add_executable(myselect myselect.cpp)
+add_executable(selectServer selectServer.cpp)
 
 # TODO: Add tests and install targets if needed.
