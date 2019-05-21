@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\DesignPattern",
-    "\\DesignPattern\\AbstractFactory",
-    "\\DesignPattern\\BuildPattern"
+    "\\DesignPattern\\FactoryMethodPattern",
+    "\\DesignPattern\\SimpleFactoryPattern"
   ],
-  "SelectedNode": "\\DesignPattern\\BuildPattern\\testBuildPattern.cpp",
+  "SelectedNode": "\\DesignPattern\\CMakeLists.txt",
   "PreviewInSolutionExplorer": false
 }

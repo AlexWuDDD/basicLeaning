@@ -14,5 +14,8 @@ add_executable(listener1 listener1.cpp)
 add_executable(talker1 talker1.cpp)
 add_executable(myselect myselect.cpp)
 add_executable(selectServer selectServer.cpp)
+add_executable(htonfANDntohf htonfANDntohf.cpp)
+add_executable(IEEE754 IEEE754.cpp)
+add_executable(pack pack.cpp)
 
 # TODO: Add tests and install targets if needed.

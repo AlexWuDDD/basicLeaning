@@ -9,6 +9,8 @@ add_definitions(-std=c++11)
 add_executable (DesignPattern "DesignPattern.cpp" "DesignPattern.h"
 	singleton.cpp
 	AbstractFactory/factory.cpp
-	BuildPattern/testBuildPattern.cpp)
+	BuildPattern/testBuildPattern.cpp
+	SimpleFactoryPattern/testSFP.cpp
+	FactoryMethodPattern/testFMP.cpp)
 
 # TODO: Add tests and install targets if needed.
