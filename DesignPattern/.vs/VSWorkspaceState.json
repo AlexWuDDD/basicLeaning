@@ -3,8 +3,9 @@
     "",
     "\\DesignPattern",
     "\\DesignPattern\\FactoryMethodPattern",
+    "\\DesignPattern\\PrototypePattern",
     "\\DesignPattern\\SimpleFactoryPattern"
   ],
-  "SelectedNode": "\\DesignPattern\\CMakeLists.txt",
+  "SelectedNode": "\\DesignPattern\\SimpleFactoryPattern\\testSFP.cpp",
   "PreviewInSolutionExplorer": false
 }

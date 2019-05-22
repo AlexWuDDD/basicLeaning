@@ -17,5 +17,8 @@ add_executable(selectServer selectServer.cpp)
 add_executable(htonfANDntohf htonfANDntohf.cpp)
 add_executable(IEEE754 IEEE754.cpp)
 add_executable(pack pack.cpp)
+add_executable(broadcaster broadcaster.cpp)
+add_executable(recvtimeout recvtimeout.cpp)
+add_executable(gethostbyname gethostbyname.cpp)
 
 # TODO: Add tests and install targets if needed.

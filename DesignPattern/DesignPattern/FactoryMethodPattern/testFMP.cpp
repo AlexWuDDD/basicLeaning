@@ -6,7 +6,7 @@
 #define SAFE_DELETE(p) { if(p){delete(p); (p)=NULL;} }
 #endif
 
-int main()
+int testFMP()
 {
 	// ±¼³Û
 	AFactory* pFactory = new BenzFactory();

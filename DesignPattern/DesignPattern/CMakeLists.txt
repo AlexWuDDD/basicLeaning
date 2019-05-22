@@ -11,6 +11,7 @@ add_executable (DesignPattern "DesignPattern.cpp" "DesignPattern.h"
 	AbstractFactory/factory.cpp
 	BuildPattern/testBuildPattern.cpp
 	SimpleFactoryPattern/testSFP.cpp
-	FactoryMethodPattern/testFMP.cpp)
+	FactoryMethodPattern/testFMP.cpp
+	PrototypePattern/testPP.cpp)
 
 # TODO: Add tests and install targets if needed.

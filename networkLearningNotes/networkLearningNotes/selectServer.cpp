@@ -9,6 +9,8 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <netdb.h>
+#include <signal.h>
+#include <errno.h>
 
 #define PORT "9034"
 
@@ -91,7 +93,12 @@ int main(void)
 	//main loop
 	for (;;) {
 		read_fds = master; //copy it
+		select_restart:
 		if (select(fdmax + 1, &read_fds, NULL, NULL, NULL) == -1) {
+			if (errno == EINTR) {
+				//some signal just interruped us. so restart
+				goto select_restart;
+			}
 			perror("select");
 			exit(4);
 		}
